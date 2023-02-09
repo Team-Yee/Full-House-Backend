@@ -23,6 +23,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	runtimeOnly("com.mysql:mysql-connector-j")
+	implementation("dev.miku:r2dbc-mysql:0.8.2.RELEASE")
+	implementation("io.r2dbc:r2dbc-pool:0.8.8.RELEASE")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
 }
